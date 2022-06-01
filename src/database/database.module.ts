@@ -9,6 +9,7 @@ import { Connection } from "typeorm";
 export class DatabaseModule{
  constructor(connection:Connection)   {
 if(connection.isConnected)
+//checking the connection
 console.log("Data base connected successfully!");
  }
 }
